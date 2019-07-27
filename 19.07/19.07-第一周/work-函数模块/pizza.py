@@ -1,0 +1,5 @@
+def make_pizza(size,*toppings):
+    """描述要制作的披萨"""
+    print("\nMaking a"+ str(size)+"-inch pizza with the following toppings:")
+    for topping in toppings:
+        print("-"+topping)

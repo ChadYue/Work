@@ -1,0 +1,6 @@
+n = str(input('请输入一个三位数：'))
+x = list(n)
+x.sort(reverse=False)
+print(x)
+x.sort(reverse=True)
+print(x)
